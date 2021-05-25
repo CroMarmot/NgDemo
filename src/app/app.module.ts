@@ -7,9 +7,10 @@ import { ForDemoComponent } from './for-demo/for-demo.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { FormsModule } from '@angular/forms';
+import { TimerDemoComponent } from './timer-demo/timer-demo.component';
 
 @NgModule({
-  declarations: [AppComponent, ForDemoComponent],
+  declarations: [AppComponent, ForDemoComponent, TimerDemoComponent],
   imports: [
     BrowserModule,
     FormsModule,
