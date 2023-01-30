@@ -8,9 +8,19 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { FormsModule } from '@angular/forms';
 import { TimerDemoComponent } from './timer-demo/timer-demo.component';
+import {
+  ComponentUpdateDemoComponent,
+  PreSumPipe,
+} from './component-update-demo/component-update-demo.component';
 
 @NgModule({
-  declarations: [AppComponent, ForDemoComponent, TimerDemoComponent],
+  declarations: [
+    AppComponent,
+    ForDemoComponent,
+    TimerDemoComponent,
+    ComponentUpdateDemoComponent,
+    PreSumPipe,
+  ],
   imports: [
     BrowserModule,
     FormsModule,

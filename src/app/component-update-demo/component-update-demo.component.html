@@ -1,0 +1,7 @@
+<label for="ipt">input:</label>
+<input id="ipt" [(ngModel)]="inputValue" />
+<span> {{ inputValue }} </span>
+<h1>Check the console when typing in input box</h1>
+<div>independent caculate with method {{ calc0() }}</div>
+<div>independent caculate with rxjs {{ calc1$ | async }}</div>
+<div>independent caculate with pipe {{ otherValue | async | preSumPipe }}</div>
