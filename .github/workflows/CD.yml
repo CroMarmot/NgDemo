@@ -2,11 +2,11 @@
 
 name: CD
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [master]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node_version: ['12']
-        
+        node_version: ["16"]
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -29,7 +29,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node_version }}
-          
+
       - name: Cache deps
         uses: actions/cache@v2
         with:
@@ -37,19 +37,19 @@ jobs:
             node_modules
             ~/.npm
           key: ${{ matrix.node_version }}-node-${{ hashFiles('**/package-lock.json') }}
-            
+
       - name: install ng cli
         run: npm install -g @angular/cli
 
       - name: install Dependencies
         run: npm install
-      
+
       - name: lint
         run: ng lint
-        
+
       - name: test
         run: ng test --watch=false --browsers=ChromeHeadless
-        
+
       - name: build
         run: ng build --prod --base-href=/NgDemo/
 
