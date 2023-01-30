@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1616062317229,
+  "timestamp": 1675043890862,
   "index": "/NgDemo/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/NgDemo/favicon.ico",
         "/NgDemo/index.html",
-        "/NgDemo/main.09272ec51526f82d53c5.js",
+        "/NgDemo/main.dae20fc73937837b81c0.js",
         "/NgDemo/manifest.webmanifest",
         "/NgDemo/polyfills.35a5ca1855eb057f016a.js",
         "/NgDemo/runtime.acf0dec4155e77772545.js",
@@ -52,8 +52,8 @@
     "/NgDemo/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/NgDemo/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/NgDemo/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/NgDemo/index.html": "6216842b3e4ddfc881619ffe4a4f2fd642fb85ea",
-    "/NgDemo/main.09272ec51526f82d53c5.js": "23c68b75c0a3c367796823853fc949dd4898b83a",
+    "/NgDemo/index.html": "f76c59c96e9e926a861579e338bbe2012cd0c63d",
+    "/NgDemo/main.dae20fc73937837b81c0.js": "a9efde9eff6beb6f2ad49686f4d0224f7f497102",
     "/NgDemo/manifest.webmanifest": "0d402aadeafb49bfc8bac8071357b03fa0bf3c16",
     "/NgDemo/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
     "/NgDemo/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
