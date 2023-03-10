@@ -1,0 +1,14 @@
+<h1>10000 draggable svg</h1>
+<div
+  (mousemove)="onMouseMove($event)"
+  (mouseup)="onMouseUp($event)"
+  (mousedown)="onMouseDown($event)"
+>
+  <app-box
+    *ngFor="let box of boxes"
+    [x]="box.x"
+    [y]="box.y"
+    [num]="box.num"
+    [selected]="box.num == currentId"
+  ></app-box>
+</div>

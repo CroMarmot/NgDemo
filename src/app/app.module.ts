@@ -12,6 +12,8 @@ import {
   ComponentUpdateDemoComponent,
   PreSumPipe,
 } from './component-update-demo/component-update-demo.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import {
     TimerDemoComponent,
     ComponentUpdateDemoComponent,
     PreSumPipe,
+    NotFoundComponent,
+    MainPageComponent,
   ],
   imports: [
     BrowserModule,
